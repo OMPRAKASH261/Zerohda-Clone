@@ -1,7 +1,7 @@
 import React from "react";
 import Bokerage from "./Bokerage";
 import OpenAccount from "../OpenAccount";
-import Hero from "../home/Hero";
+import Hero from "./Hero";
 
 function PricingPage() {
   return (
