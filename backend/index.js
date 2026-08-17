@@ -1,7 +1,16 @@
+require("dotenv").config();
+
 const express = require("express");
+const { default: mongoose } = require("mongoose");
+const monngoose = require('mongoose')
 
 const app = express();
+const PORT = process.env.PORT || 3002;
+const uri = process.env.MONGO_URL;
 
 app.listen(3002, () => {
     console.log("App started");
+    mongoose.connect(uri);
+    console.log("DB connected");
+    
 });
