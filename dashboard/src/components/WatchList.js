@@ -102,7 +102,7 @@ export default WatchList;
 const WatchListItem = ({ stock }) => {
   const [showWatchlistActions, setShowWatchlistActions] = useState(false);
 
-  const handleMouseEnter = (e) => {
+  const handleMouseEnter = (e) => { // e = event
     setShowWatchlistActions(true);
   };
 
