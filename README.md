@@ -58,3 +58,42 @@ Dashboard Dependencies:-
 * @mui/icons-material: Material icons
 * @emotion/react: MUI peer (CSS-in-JS)
 * @emotion/styled: MUI peer (styled API)
+
+
+## Materia UI 
+install in dasboard terminal
+browser - `mui.com`
+goto -> `https://mui.com/material-ui/material-icons/`
+copy npm command paste in dasboard terminal
+
+# Backend
+Mongodb setup 
+terminal -> cd backend
+`npm init`
+`npm i -D nodemon`   (-D is developer dependencies)
+`npm i express body-parser cors dotenv mongoose passport passport-local passport-local-mongoose`
+create index.js file
+termianl -> `npm start`  (it will start nodemon server)
+
+### Notes
+•	express: Web framework for Node.js; used to create routes and server.
+•	body-parser: Parses incoming request bodies; often replaced by  express.json()  and  express.urlencoded() .
+•	cors: Allows cross-origin requests between frontend and backend.
+•	dotenv: Loads environment variables from a  .env  file.
+•	mongoose: ODM for MongoDB; helps define schemas and work with the database.
+•	passport: Authentication middleware for Node.js.
+•	passport-local: Passport strategy for username/password login.
+•	passport-local-mongoose: Mongoose plugin that simplifies Passport local auth with user schema helpers and hashing. It works with Passport and Mongoose, and expects those packages to be installed
+
+#### Tiny memory trick
+•	express = server
+•	body-parser = request data
+•	cors = cross-domain access
+•	dotenv = env variables
+•	mongoose = MongoDB model layer
+•	passport = auth system
+•	passport-local = local login strategy
+•	passport-local-mongoose = easier user auth plugin
+
+## Created .env  private or local file
+in mongodb atlas zerodhaclosecluster -> go to ip access and create a new ip address `0.0.0.0/0` it's a universal ip address.
