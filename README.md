@@ -118,3 +118,25 @@ in mongodb atlas zerodhaclosecluster -> go to ip access and create a new ip addr
 ## User Authentication and Authorization
 
 documation:- `https://www.freecodecamp.org/news/how-to-secure-your-mern-stack-application/#howtosetupmongodb`
+
+
+## chart.js 
+website: `https://react-chartjs-2.js.org/`
+
+dasboard terminal: `npm install chart.js react-chartjs-2`
+
+use chart is 
+1.Vertical Bar Chart(`https://react-chartjs-2.js.org/examples/vertical-bar-chart`)
+2.Doughnut Chart(`https://react-chartjs-2.js.org/examples/doughnut-chart`)
+
+## API - i don't use api because it's paid. 
+insted working with live data i use dummy data.
+
+for paid api i have option:-
+1. NSE india
+2. Upstox
+3. Marketstack (for international market)
+4. finnhub
+
+## Testing - Jest
+website: `https://jestjs.io/docs/getting-started`
