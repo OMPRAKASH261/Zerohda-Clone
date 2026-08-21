@@ -4,7 +4,10 @@ function Demat() {
   return (
     <div className="container">
       <div className="row">
-        <h3 className="text-center text-muted" style={{ marginTop: "8%", marginBottom: "2%" }}>
+        <h3
+          className="text-center text-muted"
+          style={{ marginTop: "8%", marginBottom: "2%" }}
+        >
           Investment options with Zerodha demat account
         </h3>
         <div className="col-2"></div>
@@ -47,10 +50,18 @@ function Demat() {
           </p>
         </div>
         <div className="col-2"></div>
+        <div>
+          <div className="col-12 text-center" style={{ marginTop: "6%" }}>
+            <button
+              className="p-2 btn btn-primary fs-5 mb-5"
+              style={{ width: "20%" }}
+            >
+              Explore Investment
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-    
-    
   );
 }
 
