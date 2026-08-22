@@ -41,7 +41,7 @@ function Demat() {
           </p>
         </div>
         <div className="col-1 mt-5">
-          <img src="media/images/stocks-acop.svg" style={{ width: "150%" }} />
+          <img src="media/images/fo-acop.svg" style={{ width: "150%" }} />
         </div>
         <div className="col-3 mt-5 mx-5" style={{ fontSize: "1.1rem" }}>
           <h4>Futures & options</h4>

@@ -7,95 +7,172 @@ function Footer() {
         <div className="row mt-5 ">
           <div className="col">
             <img src="media/images/logo.svg" style={{ width: "50%" }} />
-            <p>&copy; 2010 - 2026, Zerodha Broking Ltd. <br />All rights reserved.</p>
+            <p>
+              &copy; 2010 - 2026, Zerodha Broking Ltd. <br />
+              All rights reserved.
+            </p>
+            <img
+              src="media/images/appstoreBadge.svg"
+              className="mx-2"
+              style={{ width: "40%", height: "13%" }}
+            />
+            <img
+              src="media/images/googlePlayBadge.svg"
+              style={{ width: "40%", height: "13%" }}
+            />
           </div>
+
           <div className="col">
             <p>Company</p>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-              About
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                About
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-              Products
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Products
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-              Pricing
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Pricing
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-              Refreeal programme
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Refreeal programme
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-              Careers
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Careers
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-              Zerodha.tech
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Zerodha.tech
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-              Press & Media
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Press & Media
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               Zerodha cares (CSR)
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Zerodha cares (CSR)
+              </a>
             </div>
           </div>
           <div className="col">
             <p>Support</p>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               Contact
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Contact
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               Support portal
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Support portal
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               Z-Connect blog
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Z-Connect blog
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               List of charges
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                List of charges
+              </a>
             </div>
-            <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               Downloads & resources
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Downloads & resources
+              </a>
             </div>
           </div>
           <div className="col text-muted">
             <p>Account</p>
-             <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               Open an account
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Open an account
+              </a>
             </div>
-             <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               Fund transfer
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                Fund transfer
+              </a>
             </div>
-             <div style={{marginBottom: "10px"}}>
-                <a href="" className="text-muted" style={{ textDecoration: "none" }}>
-               60 day challenge
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href=""
+                className="text-muted"
+                style={{ textDecoration: "none" }}
+              >
+                60 day challenge
+              </a>
             </div>
           </div>
         </div>
@@ -164,37 +241,65 @@ function Footer() {
       <div className="container text-center mb-1" style={{ fontSize: "15px" }}>
         <div className="row">
           <div className="col">
-            <a href="" className='text-muted' style={{ textDecoration: "none" }}>
+            <a
+              href=""
+              className="text-muted"
+              style={{ textDecoration: "none" }}
+            >
               NSE
             </a>
           </div>
           <div className="col ">
-            <a href="" className='text-muted' style={{ textDecoration: "none" }}>
+            <a
+              href=""
+              className="text-muted"
+              style={{ textDecoration: "none" }}
+            >
               BSE
             </a>
           </div>
-          <div className="col " >
-            <a href="" className='text-muted' style={{ textDecoration: "none" }}>
+          <div className="col ">
+            <a
+              href=""
+              className="text-muted"
+              style={{ textDecoration: "none" }}
+            >
               MCx
             </a>
           </div>
           <div className="col ">
-            <a href=""  className='text-muted' style={{ textDecoration: "none" }}>
+            <a
+              href=""
+              className="text-muted"
+              style={{ textDecoration: "none" }}
+            >
               Terms & conditions
             </a>
           </div>
           <div className="col ">
-            <a href=""  className='text-muted' style={{ textDecoration: "none" }}>
+            <a
+              href=""
+              className="text-muted"
+              style={{ textDecoration: "none" }}
+            >
               Polices & procedures
             </a>
           </div>
           <div className="col ">
-            <a href="" className='text-muted' style={{ textDecoration: "none" }}>
+            <a
+              href=""
+              className="text-muted"
+              style={{ textDecoration: "none" }}
+            >
               Privacy policy
             </a>
           </div>
           <div className="col ">
-            <a href="" className='text-muted' style={{ textDecoration: "none" }}>
+            <a
+              href=""
+              className="text-muted"
+              style={{ textDecoration: "none" }}
+            >
               Disclosure
             </a>
           </div>
