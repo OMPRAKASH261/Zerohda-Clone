@@ -38,6 +38,125 @@ npm install
 npm start
 ```
 
+## Project Structure
+
+```bash
+Zerohda-Clone/
+│
+├── backend/
+│   ├── model/
+│   │   ├── HoldingsModel.js
+│   │   ├── OrdersModel.js
+│   │   └── PositionsModel.js
+│   │
+│   ├── schema/
+│   │   ├── holdingsSchema.js
+│   │   ├── ordersSchema.js
+│   │   └── positionsSchema.js
+│   │
+│   ├── routes/
+│   │   ├── holdings.js
+│   │   ├── orders.js
+│   │   └── positions.js
+│   │
+│   ├── middleware/
+│   │   └── errorHandler.js
+│   │
+│   ├── index.js
+│   ├── package.json
+│   └── .env
+│
+├── dashboard/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── assets/
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Apps.jsx
+│   │   │   ├── BuyActionWindow.jsx
+│   │   │   ├── BuyActionWindow.css
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── DoughnutChart.jsx
+│   │   │   ├── Funds.jsx
+│   │   │   ├── GeneralContext.jsx
+│   │   │   ├── Holdings.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Menu.jsx
+│   │   │   ├── Orders.jsx
+│   │   │   ├── Positions.jsx
+│   │   │   ├── Summary.jsx
+│   │   │   ├── TopBar.jsx
+│   │   │   ├── VerticalGraph.jsx
+│   │   │   └── WatchList.jsx
+│   │   │
+│   │   ├── data/
+│   │   │   ├── data.js
+│   │   │   ├── holdings.js
+│   │   │   ├── orders.js
+│   │   │   └── positions.js
+│   │   │
+│   │   ├── landing_page/
+│   │   │   ├── Home.jsx
+│   │   │   ├── About.jsx
+│   │   │   ├── Products.jsx
+│   │   │   ├── Pricing.jsx
+│   │   │   └── Support.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── index.js
+│   │   ├── index.css
+│   │   └── context/
+│   │       └── GeneralContext.jsx
+│   │
+│   ├── package.json
+│   └── README.md
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── media/
+│   │
+│   ├── src/
+│   │   ├── landing/
+│   │   │   ├── components/
+│   │   │   │   ├── Navbar.jsx
+│   │   │   │   ├── Hero.jsx
+│   │   │   │   ├── Awards.jsx
+│   │   │   │   ├── Stats.jsx
+│   │   │   │   ├── Pricing.jsx
+│   │   │   │   ├── Education.jsx
+│   │   │   │   └── OpenAccount.jsx
+│   │   │   │
+│   │   │   ├── pages/
+│   │   │   │   ├── HomePage.jsx
+│   │   │   │   ├── AboutPage.jsx
+│   │   │   │   ├── ProductsPage.jsx
+│   │   │   │   ├── PricingPage.jsx
+│   │   │   │   └── SupportPage.jsx
+│   │   │   │
+│   │   │   └── index.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+├── screenshots/
+│   ├── landing-page.png
+│   ├── dashboard.png
+│   ├── holdings.png
+│   ├── orders.png
+│   └── positions.png
+│
+├── .gitignore
+├── package.json
+├── LICENSE
+└── README.md
+```
+
 ## Tools Required
 
 1. VS Code (or any code editor)
