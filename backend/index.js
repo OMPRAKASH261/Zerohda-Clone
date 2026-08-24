@@ -19,6 +19,7 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
+app.get("/", (req, res) => res.json({ ok: true, service: "zerodha-backend" }));
 // session + passport
 app.use(
   session({
@@ -318,8 +319,16 @@ app.post("/newOrder", async (req, res) => {
   res.send("Order saved!");
 });
 
-app.listen(PORT, () => {
-  console.log("App started");
-  mongoose.connect(uri);
-  console.log("DB connected");
-});
+async function startServer() {
+  try {
+    await mongoose.connect(uri);
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`App started on port ${PORT}`);
+    });
+  } catch (error) {
+    console.error("Database connection failed:", error.message);
+    process.exit(1);
+  }
+}
+
+startServer();

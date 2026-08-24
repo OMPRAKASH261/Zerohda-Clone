@@ -6,6 +6,8 @@ import GeneralContext from "./GeneralContext";
 
 import "./BuyActionWindow.css";
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3003";
+
 const BuyActionWindow = ({ uid }) => {
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
@@ -34,7 +36,7 @@ const BuyActionWindow = ({ uid }) => {
         mode: "BUY",
       };
 
-      await axios.post("http://localhost:3003/newOrder", payload);
+      await axios.post(`${API_URL}/newOrder`, payload);
     } catch (err) {
       console.error("Buy request failed:", err);
       setError("Unable to place order. Please start the backend and try again.");
